@@ -90,7 +90,7 @@ See the issues tab for more details.
 </ol>
 
 ## Project Status
-(only necessary if incomplete)
+(WIP) - adds filter by route type functionality, webpack config, displays area name in left sidebar, adds Redux structure, and more! 
 
 #### Example:
 
@@ -117,20 +117,18 @@ To Visit App:
 ## Reflection
 
   - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
-   -- I met Justin at the ReactJS meetup where he was looking for contributors to this little side project of his.
+   ⋅⋅⋅I met Justin at the ReactJS meetup here in Denver where he was looking for contributors to this little side project of his. As a user of Mountain Project and rock climber I thought this might be the perfect project to take on for my side project. Upon further inspection, it offered many, many challenges and both forced me to learn and dabble in unfamiliar technologies.
   - What did you set out to build?
-   --
+   ⋅⋅⋅I originally had the goal of porting the entire front-end of Climbmapper from JS/Jquery to React/Redux. My favorite instructor, Taylor, took one look at the pre-existing code and gasped. He suggested that it was going to be a real challenge, but that I would (hopefully) learn a lot.
   - Why was this project challenging and therefore a really good learning experience?
+    ⋅⋅⋅I inherited a metric sh!t ton of someone's half-finished code, which was a potent mix of React, jQuery, and VanillaJS. Some of it worked, some of it didn't, and some of it worked every once in a while.  Additionally, the development environment was loosely configured with a not-very-well-documented back-end Posgres/PosGis setup. This was an entirely different experience than starting an app from scratch and revealed itself to be a much different programming and problem solving process than what I'd previously experienced at Turing. I felt like I had stepped up into the
   - What were some unexpected obstacles?
+    ⋅⋅⋅Setting up the develop environment
+  
   - What tools did you use to implement this project?
       - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
+    ⋅⋅⋅React/Redux, Node, PostgreSQL, pgAdmin (application), postGIS, Webpack, Jest, Babel, Enzyme, and React-Leaflet (this is what I worked with - the rest of the app uses many other technologies)
 
-#### Example:  
+#### Additional Notes:  
 
-I adopted the reactifying duties . Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.  
-
-Originally I thought it would be possible to port the majority of the front-end functionality into React/Redux. On the surface it seemed like there was enough 
-
-One of the main challenges I ran into was Authentication. This lead me to spend a few days on a research spike into OAuth, Auth0, and two-factor authentication using Firebase or other third parties. Due to project time constraints, I had to table authentication and focus more on data visualization from parts of the API that weren't restricted to authenticated users.
-
-At the end of the day, the technologies implemented in this project are React, React-Router 4.0, Redux, LoDash, D3, and a significant amount of VanillaJS, JSX, and CSS. I chose to use the `create-react-app` boilerplate to minimize initial setup and invest more time in diving into weird technological rabbit holes. In the next iteration I plan on handrolling a `webpack.config.js` file to more fully understand the build process.  
+I adopted the reactifying duties for this project and will one day become the king of Climbmapper's front-end development and approver of all PRs. This is a long-term open source project that I'm extremely excited to be contributing to, and I hope potential employers will see value in it. We're hoping to launch the fully reactify'd version this spring, just in time for climbing season to really get going. It feels awesome to be involved with both the open source software and climbing communities with this project, and I am PSYCHED to continue working on it. 
